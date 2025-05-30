@@ -1,0 +1,16 @@
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+.packages
+build/
+
+# iOS & Android
+ios/Flutter/.generated/
+ios/Pods/
+android/.gradle/
+android/build/
+
+# VS Code
+.vscode/
