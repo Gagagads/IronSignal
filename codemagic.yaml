@@ -11,5 +11,3 @@ workflows:
         script: flutter test
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
-    triggers:
-      - push
