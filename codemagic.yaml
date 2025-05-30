@@ -11,11 +11,5 @@ workflows:
         script: flutter test
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
-    publishing:
-      email:
-        recipients:
-          - your-email@example.com
-        on_build_succeeded: true
-        on_build_failed: false
     triggers:
       - push
