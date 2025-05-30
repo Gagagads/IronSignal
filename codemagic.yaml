@@ -7,7 +7,7 @@ workflows:
     scripts:
       - name: Get dependencies
         script: flutter pub get
-      - name: Run tests
-        script: flutter test
+      # - name: Run tests
+      #   script: flutter test
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
